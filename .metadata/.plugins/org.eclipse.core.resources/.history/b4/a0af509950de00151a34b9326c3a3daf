@@ -1,0 +1,18 @@
+
+	public class Hello_Wolrd {
+
+		public static void main(String[] args) {
+			
+		System.out.println("Hello World!!!");
+		System.out.println("*************");
+		System.out.println("**********");
+		System.out.println("*******");
+		System.out.println("*****");
+		
+		String S= "My First Program In Java";
+		
+		System.out.println(S);
+
+	}
+
+}

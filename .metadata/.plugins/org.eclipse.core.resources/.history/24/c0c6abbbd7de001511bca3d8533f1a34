@@ -1,0 +1,12 @@
+
+public class String_demo {
+
+	public static void main(String[] args) {
+		
+		String s=new String("Hello Nepal");
+		s.charAt(1);
+		System.out.print(s);
+			
+	}
+
+}

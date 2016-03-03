@@ -1,0 +1,25 @@
+
+public class Math_Function {
+
+	public static void main(String[] args) {
+		double a=5;
+		double b=6;
+		double max=Math.max(a, b);
+		double min=Math.min(a, b);
+		double pow=Math.pow(a, b);
+		double cos=Math.cos(a);
+		double tan=Math.tan(b);
+		double sqrt=Math.sqrt(b);
+		System.out.println(max);
+		System.out.println(min);
+		System.out.println(pow);
+		System.out.println(cos);
+		System.out.println(tan);
+		System.out.println(sqrt);
+		
+		
+		
+
+	}
+
+}

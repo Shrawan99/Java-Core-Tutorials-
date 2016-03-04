@@ -1,0 +1,10 @@
+
+public class Switch_Exapmles {
+
+	public static void main(String[] args) {
+		
+		Scanner mark=new Scanner()
+
+	}
+
+}

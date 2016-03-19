@@ -11,7 +11,7 @@ public class Loops_Conditions {
 		String pwd1=password.trim();
 		String pwd="12345";
 		
-		if (pwd1==pwd)	
+		if (pwd1.equalsIgnoreCase(pwd))	
 		{
 		System.out.println("!!!Welcome Home Shrawan!!!");	
 		}

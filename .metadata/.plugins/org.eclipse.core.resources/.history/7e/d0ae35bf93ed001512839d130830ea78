@@ -1,0 +1,21 @@
+
+public class Transpose_Matrix {
+
+	public static void main(String[] args) {
+		
+		int matrix[][]={
+			{1,2,3},
+			{8,5,6},
+			{7,4,9}
+	};
+		for(int c=0;c<3;c++){
+			for (int d=0;d<3;d++){
+				System.out.print(matrix[c][d]);
+				
+			}
+			System.out.print("\n");
+		} 
+		
+
+}
+}

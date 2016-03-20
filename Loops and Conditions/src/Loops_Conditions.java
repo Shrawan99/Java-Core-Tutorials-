@@ -9,7 +9,7 @@ public class Loops_Conditions {
 		Scanner sc=new Scanner(System.in);//Input from User
 		String password=sc.next();
 		String pwd1=password.trim();
-		String pwd="12345";
+		String pwd="SHRAWAN";
 		
 		if (pwd1.equalsIgnoreCase(pwd))	
 		{

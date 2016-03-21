@@ -1,0 +1,27 @@
+import javax.swing.*;
+import java.awt.*;
+public class Swing_Demo  extends JFrame{
+	public JLabel l1 ,l2;
+	public Swing_Demo(){
+	super("HEllow World");
+	setLayout(new FlowLayout());
+	l1=new JLabel("Hi welcome/n");
+	add(l1);
+	l1.setForeground(Color.BLUE);
+	l2=new JLabel("GO back to your home..");
+	add(l2);
+	setSize(500,300);
+	setVisible(true);
+	setVisible(true);
+	setLocation(50,40);
+	setResizable(true);
+	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+	
+public static void main(String[] args){
+	
+	new Swing_Demo();
+
+}	
+	
+}

@@ -1,0 +1,30 @@
+import javax.swing.*;
+public class DemoSwing {
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null, "Welcome to Surya Nepal:");//Acts as System.print
+		JOptionPane.showInputDialog(null,"Enter your name" , "Wage Department",JOptionPane.QUESTION_MESSAGE);
+		String hour=JOptionPane.showInputDialog(null,"How much time you worked for:" ,JOptionPane.QUESTION_MESSAGE);
+		double totalhour=Double.parseDouble(hour);
+		String wage=JOptionPane.showInputDialog(null,"Enter the doller paid per hours" ,JOptionPane.QUESTION_MESSAGE);
+		double hourlywage=Double.parseDouble(wage);
+		double total=calculateWage(totalhour,hourlywage);
+		double nepali=90*total;
+	    JOptionPane.showMessageDialog(null,"Congrats your total salay or wages is="+"\n$:"+total+"\nRs:"+ nepali);
+	}
+ public static double	calculateWage(double totalhour,double hourlywage){
+	 double totalwage = 0;
+	 if(totalhour<=40){
+		 totalwage=totalhour*hourlywage;
+	 } 
+	 else{
+		 double overtime=totalhour-40;
+		 totalwage=hourlywage*40+(1.5*overtime)*hourlywage;
+		 }
+	return totalwage;
+	 
+	 
+	 
+ }
+
+}
+

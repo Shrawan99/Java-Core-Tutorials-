@@ -1,5 +1,5 @@
 
-public interface Vechicles {
+   public interface Vechicles {
 	public void color(String color);
 	public void CC(int cc);
 	public void Door(int door);

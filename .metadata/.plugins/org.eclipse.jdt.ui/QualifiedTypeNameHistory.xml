@@ -13,4 +13,8 @@
 <fullyQualifiedTypeName name="Youtube"/>
 <fullyQualifiedTypeName name="Google"/>
 <fullyQualifiedTypeName name="eBay"/>
+<fullyQualifiedTypeName name="Vechicles"/>
+<fullyQualifiedTypeName name="Tractor"/>
+<fullyQualifiedTypeName name="java.lang.InternalError"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

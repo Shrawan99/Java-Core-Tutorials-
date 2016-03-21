@@ -1,0 +1,73 @@
+import java.awt.Checkbox;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.*;
+public class Demo4  extends JFrame{
+	public JLabel l1,l2,l3;
+	public JTextField tx1;
+	public JPasswordField psw;
+	public JRadioButton male,female;
+	public ButtonGroup bg;
+	public JCheckBox sport,travel,read;
+	public JComboBox box;
+	public String[] country={"Nepal","India","China"};
+	public JTextArea area;
+	public JScrollPane sp;
+	public JList list;
+	public String[] social={"Twitter","Facebook","LinkeDin","Google+"};
+	public JScrollPane so;
+public Demo4(){
+	super("Web page");
+	setSize(650,500);
+	setVisible(true);
+	setLayout(new FlowLayout());
+	l1=new JLabel("User Name");
+	add(l1);
+	tx1=new JTextField(20);
+	add(tx1);
+	
+	male=new JRadioButton("Male");
+	add(male);
+	female=new JRadioButton("Female");
+	add(female);
+	bg=new ButtonGroup();
+	bg.add(male);
+	bg.add(female);
+	sport=new JCheckBox("Sport");
+	add(sport);
+	travel=new JCheckBox("Travel");
+	add(travel);
+	read=new JCheckBox("Read");
+	add(read);
+	psw=new JPasswordField(20);
+	add(psw);
+	box=new JComboBox(country);
+	add(box);
+	l2=new JLabel("Enter your text.");
+	add(l2);
+	//area=new JTextArea(20,20);
+	//add(area);
+	sp=new JScrollPane(area);
+	add(sp);
+	list=new JList(social);
+	so=new JScrollPane(list);
+	add(so);
+	list.setVisibleRowCount(2);
+	JButton alpha=new JButton("Alpha");
+	alpha.addActionListener(new ActionListener (){
+		public void actionPerformed(ActionEvent ae) {
+			l3.setText("Aplha is pressed");
+		}
+		});
+	setResizable(false);
+	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+public static void main(String[] args) {
+	setDefaultLookAndFeelDecorated(true);
+	new Demo4().setVisible(true);
+}
+
+
+}

@@ -1,0 +1,11 @@
+import javax.swing.*;
+public class Swing_Demo{
+		
+public static void main(String[] args){
+	
+	JOptionPane.showMessageDialog(null, "Hello Nepal", "Mero Nepal", JOptionPane.INFORMATION_MESSAGE);
+	JOptionPane.showInputDialog(null,"Enter Your Name");
+	
+}	
+	
+}

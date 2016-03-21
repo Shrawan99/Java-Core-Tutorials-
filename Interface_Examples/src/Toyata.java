@@ -4,6 +4,7 @@ public class Toyata {
 	public static void main(String[] args) {
 		Tractor trac=new Tractor();
 		System.out.println("Welcome to Toyata,lets have Survery on New Tractor\n");
+		
 		trac.color("Red");
 		trac.CC(250);
 		trac.Door(4);
@@ -13,7 +14,7 @@ public class Toyata {
 	}
 
 }
-class Tractor implements Vechicles{
+   class Tractor implements Vechicles{
 	
 
 	@Override
@@ -36,6 +37,7 @@ class Tractor implements Vechicles{
 		System.out.println("Number of Doors of Tractor is "+door);
 		
 	}
+
 
 	@Override
 	public void milage(Double mil) {

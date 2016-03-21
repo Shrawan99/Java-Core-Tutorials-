@@ -1,0 +1,52 @@
+
+public class Toyata {
+
+	public static void main(String[] args) {
+		Tractor trac=new Tractor();
+		System.out.println("Welcome to Toyata,lets have Survery on New Tractor\n");
+		trac.color("Red");
+		trac.CC(250);
+		trac.Door(4);
+		trac.milage(70.5);
+		
+
+	}
+
+}
+   class Tractor implements Vechicles{
+	
+
+	@Override
+	public void color(String color) {
+		// TODO Auto-generated method stub
+		System.out.println("Color of Tractor is "+color);
+		
+	}
+
+	@Override
+	public void CC(int cc) {
+		// TODO Auto-generated method stub
+		System.out.println("CC of Tractor is "+cc);
+		
+	}
+
+	@Override
+	public void Door(int door) {
+		// TODO Auto-generated method stub
+		System.out.println("Number of Doors of Tractor is "+door);
+		
+	}
+
+
+	@Override
+	public void milage(Double mil) {
+		// TODO Auto-generated method stub
+		System.out.println("Milage of Tractor is "+mil);
+		
+	}
+	
+	
+	
+	
+	
+}

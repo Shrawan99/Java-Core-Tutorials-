@@ -1,0 +1,44 @@
+
+public class Toyata {
+
+	public static void main(String[] args) {
+		Tractor trac=new Tractor();
+		trac.color("Red");
+		trac.CC(250);
+		trac.Door(4);
+		trac.milage(70.5);
+
+	}
+
+}
+class Tractor implements Vechicles{
+
+	@Override
+	public void color(String color) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void CC(int cc) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void Door(int door) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void milage(Double mil) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+	
+}

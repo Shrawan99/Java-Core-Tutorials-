@@ -1,0 +1,31 @@
+
+public class Overriding_Examples {
+
+	 
+		public static void main(String args[]) {
+			//Company a = new Company(); // Company reference and object
+			eBay b = new eBay(); // Company reference but eBay object
+	 
+			//a.address();// runs the method in Company class
+			b.address();// Runs the method in eBay class
+			b.location();
+		}
+	}
+
+	class Company {
+	 
+		public void address() {
+			System.out.println("This is Address of Amazon Company...");
+		}
+	}
+	 
+	class eBay extends Company {
+	 
+		public void address() {
+			super.address();
+			System.out.println("This is eBay's Address...");
+		}
+		public void location(){
+			System.out.println("5th Street, Texas");
+		}
+	}

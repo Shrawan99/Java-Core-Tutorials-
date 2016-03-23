@@ -17,4 +17,10 @@
 <fullyQualifiedTypeName name="Tractor"/>
 <fullyQualifiedTypeName name="java.lang.InternalError"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+<fullyQualifiedTypeName name="javax.swing.JPasswordField"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="java.awt.GridBagLayout"/>
+<fullyQualifiedTypeName name="java.awt.GridBagConstraints"/>
+<fullyQualifiedTypeName name="javax.swing.JPanel"/>
+<fullyQualifiedTypeName name="java.awt.BorderLayout"/>
 </qualifiedTypeNameHistroy>

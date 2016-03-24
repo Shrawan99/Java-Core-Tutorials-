@@ -5,7 +5,6 @@ public class DataBase {
 		Connection con;
 		Statement stmt;
 		ResultSet rs;
-		
 		try{
 			Class.forName("com.mysql.jdbc.Driver");
 			con=DriverManager.getConnection("jdbc:mysql://localhost/Java_Student","root","");

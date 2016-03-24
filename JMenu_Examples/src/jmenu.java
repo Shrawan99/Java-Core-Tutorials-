@@ -5,6 +5,7 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JRadioButtonMenuItem;
+
 public class jmenu extends JFrame {
   private JMenuBar menuBar = new JMenuBar(); // Window menu bar
   private JMenuItem newItem, openItem, closeItem, saveItem, saveAsItem, printItem;
@@ -23,8 +24,8 @@ public class jmenu extends JFrame {
     saveAsItem = fileMenu.add("Save As...");
     fileMenu.addSeparator();
     printItem = fileMenu.add("Print");
-    elementMenu.add(lineItem = new JRadioButtonMenuItem("Line", true));
-    elementMenu.add(rectangleItem = new JRadioButtonMenuItem("Rectangle", false));
+    elementMenu.add(lineItem = new JRadioButtonMenuItem("Line", false));
+    elementMenu.add(rectangleItem = new JRadioButtonMenuItem("Rectangle", true));
     elementMenu.add(circleItem = new JRadioButtonMenuItem("Circle", false));
     ButtonGroup types = new ButtonGroup();
     types.add(lineItem);

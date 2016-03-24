@@ -126,6 +126,7 @@ public class KecDatabase extends JFrame implements ActionListener {
 		new KecDatabase();
 	}
 
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == b1) {
